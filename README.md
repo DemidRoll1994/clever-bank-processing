@@ -1,2 +1,3 @@
 # clever-bank-processing
-tetst project for clevertec cources
+test project for clevertec cources
+now supported refill and withdraw accounts, transfer between accounts
