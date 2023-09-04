@@ -10,12 +10,12 @@ import java.util.Date;
 @Data
 public class Account {
 
-    private long id;
+    private int id;
     private String ibanCode;
     private Client client;
     private Bank bank;
     private BigDecimal amount;
-    private Date OpenengDate;
+    private Date openengDate;
     private Currency currency;
 
 }
