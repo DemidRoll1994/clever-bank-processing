@@ -12,7 +12,7 @@ public class PostgreSQLConnUtils {
             try {
                 conn = DriverManager.getConnection(
                         "jdbc:postgresql://127.0.0.1:5432/clevertec_bank?useUnicode=true&charSet=UTF8",
-                        "postgres", "admin");
+                        "postgres", "     ");
                 if (conn != null) {
                     System.out.println("Connected to the database!");
                 } else {
